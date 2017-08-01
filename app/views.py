@@ -6,7 +6,19 @@
 from app import app
 #from flask import render_template
 #from flask import request,redirect
+def readh5file(filename):
+    f = open(filename)
+    StrBuffer = f.read()
+    f.close()
+    return StrBuffer
+    
 @app.route('/')
 @app.route('/index')
 def index():
     return "Hello Flask!"
+
+    
+@app.route('/test')
+def test():
+    HtmlBuffer = readh5file('static/Page/index.html') 
+    return """{}""".format(HtmlBuffer)
