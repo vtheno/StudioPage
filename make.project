@@ -1,0 +1,4 @@
+mkdir app app\static app\templates
+echo #TODO> app\__init__.py
+echo #TODO> app\views.py
+echo #TODO> server.py

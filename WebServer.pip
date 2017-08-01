@@ -1,0 +1,12 @@
+cffi==1.10.0
+click==6.7
+enum-compat==0.0.2
+enum34==1.1.6
+eventlet==0.21.0
+Flask==0.12.2
+greenlet==0.4.12
+itsdangerous==0.24
+Jinja2==2.9.6
+MarkupSafe==1.0
+readline==6.2.4.1
+Werkzeug==0.12.2
